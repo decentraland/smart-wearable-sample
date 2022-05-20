@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@dcl/eslint-config": "^1.0.1",
-    "decentraland-ecs": "https://sdk-team-cdn.decentraland.org/@dcl/js-sdk-toolchain/branch/fix/smart-item/decentraland-ecs-6.11.1-2334105923.commit-f36457c.tgz"
+    "decentraland-ecs": "latest"
   },
   "engines": {
     "node": ">=14.0.0",
