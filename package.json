@@ -14,11 +14,14 @@
   },
   "devDependencies": {
     "@dcl/eslint-config": "^1.0.1",
-    "decentraland-ecs": "latest"
+    "decentraland-ecs": "https://sdk-team-cdn.decentraland.org/@dcl/js-sdk-toolchain/branch/fix/smart-item/decentraland-ecs-6.11.1-2334105923.commit-f36457c.tgz"
   },
   "engines": {
     "node": ">=14.0.0",
     "npm": ">=6.0.0",
     "yarn": "please use npm"
+  },
+  "dependencies": {
+    "fs-extra": "^10.1.0"
   }
 }
