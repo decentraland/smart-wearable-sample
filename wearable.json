@@ -1,38 +1,41 @@
 {
-    "id": "650e94a4-4be2-4d27-b126-93ad2935b3c1",
-    "data": {
-      "replaces": [],
-      "hides": [],
-      "tags": [
-        "special",
-        "new",
-        "eyebrows"
-      ],
-      "representations": [
-        {
-          "bodyShapes": [
-            "urn:decentraland:off-chain:base-avatars:BaseMale"
-          ],
-          "mainFile": "glasses.glb",
-          "contents": ["glasses.glb"],
-          "overrideHides": [],
-          "overrideReplaces": []
-        }
-      ],
-      "category": "eyewear"
-    },
-    "image": "glasses.png",
-    "i18n": [
+  "id": "650e94a4-4be2-4d27-b126-93ad2935b3c1",
+  "data": {
+    "replaces": [],
+    "hides": [],
+    "tags": [
+      "special",
+      "new",
+      "eyebrows"
+    ],
+    "representations": [
       {
-        "code": "en",
-        "text": "test"
+        "bodyShapes": [
+          "urn:decentraland:off-chain:base-avatars:BaseMale",
+          "urn:decentraland:off-chain:base-avatars:BaseFemale"
+        ],
+        "mainFile": "glasses.glb",
+        "contents": [
+          "glasses.glb"
+        ],
+        "overrideHides": [],
+        "overrideReplaces": []
       }
     ],
-    "assetType": "portable-experience",
-    "name": "Portable Experience Example",
-    "description": "My new Portable Experience",
-    "rarity": "mythic",
-    "thumbnail": "glasses.png",
-    "model": "glasses.glb",
-    "bodyShape": "both"
-  }
+    "category": "eyewear"
+  },
+  "image": "glasses.png",
+  "i18n": [
+    {
+      "code": "en",
+      "text": "test"
+    }
+  ],
+  "assetType": "portable-experience",
+  "name": "Portable Experience Example",
+  "description": "My new Portable Experience",
+  "rarity": "mythic",
+  "thumbnail": "glasses.png",
+  "model": "glasses.glb",
+  "bodyShape": "both"
+}
