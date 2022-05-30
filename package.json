@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "@dcl/eslint-config": "^1.0.1",
-    "decentraland-ecs": "latest"
+    "decentraland-ecs": "next"
   },
   "engines": {
     "node": ">=14.0.0",
