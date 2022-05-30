@@ -42,10 +42,19 @@ function spawnCube(x: number, y: number, z: number) {
 const cube = spawnCube(8, 1, 8)
 
 cube.addComponent(
-  new OnClick(() => {
+  new OnPointerDown(() => {
     cube.getComponent(Transform).scale.z *= 1.1
     cube.getComponent(Transform).scale.x *= 0.9
 
     spawnCube(Math.random() * 8 + 1, Math.random() * 8, Math.random() * 8 + 1)
   })
 )
+
+
+Input.instance.subscribe('BUTTON_DOWN', ActionButton.ACTION_3, true, async () => {
+	log("Pressed 1")
+})
+
+Input.instance.subscribe('BUTTON_DOWN', ActionButton.ACTION_4, true, async () => {
+	log("Pressed 2")
+})
