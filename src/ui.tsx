@@ -40,7 +40,7 @@ const uiComponent = () => (
         uiBackground={{
           textureMode: 'stretch',
           texture: {
-            src: 'images/thumbnail.png',
+            src: 'thumbnail.png',
           },
         }}
         uiText={{ value: 'SDK7 Smart Wearable', fontSize: 18 }}
