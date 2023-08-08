@@ -13,7 +13,7 @@
 		"name": "SDK",
 		"email": ""
 	},
-	"main": "bin/index.js",
+	"main": "bin/game.js",
 	"scene": {
 		"parcels": [
 			"0,0"
