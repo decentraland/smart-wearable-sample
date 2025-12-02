@@ -1,5 +1,5 @@
 .*
-package.json
+bin/*.map
 package-lock.json
 yarn-lock.json
 build.json
@@ -9,6 +9,7 @@ tslint.json
 node_modules
 *.ts
 *.tsx
+.vscode
 Dockerfile
 dist
 README.md
@@ -16,4 +17,5 @@ README.md
 *.fbx
 *.zip
 *.rar
+src
 cursor.config

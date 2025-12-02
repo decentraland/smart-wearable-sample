@@ -1,25 +1,27 @@
 {
   "name": "dcl-project",
   "version": "1.0.0",
-  "description": "My new Decentraland project",
+  "description": "SDK7 Template scene",
   "scripts": {
-    "start": "dcl start",
-    "build": "build-ecs",
-    "watch": "build-ecs --watch",
-    "deploy:now": "dcl pack",
-    "ecs:install": "npm install --save-dev decentraland-ecs@latest",
-    "ecs:install-next": "npm install --save-dev decentraland-ecs@next",
-    "lint": "eslint . --ext .ts",
-    "lint:fix": "eslint . --ext .ts --fix",
+    "start": "sdk-commands start",
+    "deploy": "sdk-commands deploy",
+    "build": "sdk-commands build",
+    "upgrade-sdk": "npm install --save-dev @dcl/sdk@latest",
+    "upgrade-sdk:next": "npm install --save-dev @dcl/sdk@next",
     "pack": "sdk-commands pack-smart-wearable"
   },
   "devDependencies": {
-    "@dcl/eslint-config": "^1.0.1",
-    "decentraland-ecs": "latest"
+    "@dcl/js-runtime": "latest",
+    "@dcl/sdk": "latest"
   },
   "engines": {
-    "node": ">=14.0.0",
-    "npm": ">=6.0.0",
-    "yarn": "please use npm"
+    "node": ">=16.0.0",
+    "npm": ">=6.0.0"
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "printWidth": 120,
+    "trailingComma": "none"
   }
 }
